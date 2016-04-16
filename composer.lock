@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e07dd219123472386a70a35ce2508376",
-    "content-hash": "f9e9af86270318f711ce21a0da417cec",
+    "hash": "65df810aa6926aa806ce8670da6ce960",
+    "content-hash": "26d5fe253d6a0862b81fb7b402f2b4ba",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,39 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "ivanisrael/person",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivanisrael/person.git",
+                "reference": "61b4a983e87691b2d17c237c1dea44b871336fef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivanisrael/person/zipball/61b4a983e87691b2d17c237c1dea44b871336fef",
+                "reference": "61b4a983e87691b2d17c237c1dea44b871336fef",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "v5.*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Person\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ivan Israel"
+                }
+            ],
+            "description": "A Person Class",
+            "time": "2016-04-15 19:00:44"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -519,16 +552,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.2",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09"
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/064b38c16790249488e7a8b987acf1c9d7383c09",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5f56ed5212dc509c8dc8caeba2715732abb32dbf",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
                 "shasum": ""
             },
             "require": {
@@ -593,7 +626,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-02 13:12:58"
+            "time": "2016-04-12 18:29:35"
         },
         {
             "name": "mtdowling/cron-expression",
