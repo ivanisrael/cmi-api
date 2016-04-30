@@ -21,3 +21,6 @@ Route::group(['prefix' => 'api'], function()
 	Route::post('authenticate', 'authenticateController@authenticate');
 	Route::get('authenticate/user', 'AuthenticateController@getAuthenticatedUser');
 });
+
+Route::get('test', 'testController@index');
+Route::get('test/dashboard', 'testController@dashboard');
